@@ -1,0 +1,11 @@
+python -m venv env
+env\Scripts\activate.bat / env\Scripts\activate
+pip install django
+django-admin startproject 'project_name'
+cd 'project_name'
+python manage.py startapp 'app_name'
+pip install black (To format the database)
+python -m black . (Command to run the black package to format the database)
+pip install django-multiselectfield
+pip install django-import-export
+pip install -U django-jazzmin
